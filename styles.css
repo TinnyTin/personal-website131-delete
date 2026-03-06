@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+html, body{
+ margin: 0;
+ padding: 0;
+ font-family: 'Segoe UI';
+ line-height: 1.6;
+ color: #2b2b2b;
+ 
+}
+
+/* CONTAINER
+----------------------- */
+.container {
+    margin: 0 auto;
+}
+
+/* HEADER
+----------------------- */
+header{
+    background: rgb(252, 230, 226);
+}
+
+header .container {
+    padding: 10px;
+}
+
+
+
+/* NAV BAR
+----------------------- */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(58, 51, 43);
+    font-weight: 600;
+    background: rgba(154, 129, 129, 0.6);
+    border: 1px solid #393939e0;
+    border-radius: 999px;
+    padding: 10px 20px;
+    transition: all 0.2s ease;
+}
+
+nav a:hover{
+    background: #fff;
+    color: rgb(41, 38, 36);
+}
+
+/* CONTENT
+----------------------- */
+section {
+    background: rgb(247, 243, 227);
+    margin-top: 50px;
+    border: 1px solid #393939e0;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+ul {
+    margin: 20px 0 0;
+}
+
+.btn {
+    color: #fff;
+}
+
+/* FOOTER
+----------------------- */
+
+footer {
+    margin-top: 30px;
+    padding: 15px 0 15px;
+    font-size: 14px;
+}
+
+
+
